@@ -71,9 +71,9 @@ const userSchema = new mongoose.Schema(
     ],
     wishlist: [
       {
-        product: {
+        project: {
           type: ObjectId,
-          ref: "Product",
+          ref: "Project",
         },
         style: {
           type: String,
